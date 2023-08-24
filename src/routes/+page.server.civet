@@ -1,0 +1,8 @@
+type { ServerLoadEvent } from @sveltejs/kit
+{ add } from ./math
+
+export const load = async (e: ServerLoadEvent) =>
+  return 
+    query: e.url.search
+    name: 9999
+    num: add(13, 996)
